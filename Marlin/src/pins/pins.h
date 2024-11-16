@@ -485,6 +485,8 @@
   #include "stm32f1/pins_GTM32_REV_B.h"         // STM32F103VE                            env:STM32F103VE env:STM32F103RE_maple
 #elif MB(MORPHEUS)
   #include "stm32f1/pins_MORPHEUS.h"            // STM32F103RE                            env:STM32F103RE env:STM32F103RE_maple
+#elif MB(CUSTOM_BLUEPILL)
+  #include "stm32f1/pins_CUSTOM_BLUEPILL.h"     // STM32F103CB                            env:STM32F103CB_custom
 #elif MB(CHITU3D)
   #include "stm32f1/pins_CHITU3D.h"             // STM32F103ZE                            env:STM32F103ZE env:STM32F103RE_maple
 #elif MB(MKS_ROBIN)
